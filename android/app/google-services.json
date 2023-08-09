@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "966400904663",
+    "firebase_url": "https://react-native-app-69c3f-default-rtdb.firebaseio.com",
+    "project_id": "react-native-app-69c3f",
+    "storage_bucket": "react-native-app-69c3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966400904663:android:26c879643f632330768f92",
+        "android_client_info": {
+          "package_name": "com.hotelbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966400904663-mfo7n829jik74d1oq624pci36absjcrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr7qSwSqZ74keFPL91V53InqrpnMagPA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966400904663-mfo7n829jik74d1oq624pci36absjcrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
