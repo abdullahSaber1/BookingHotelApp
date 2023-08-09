@@ -3,11 +3,12 @@ import {Alert, PermissionsAndroid} from "react-native";
 
 export const calculationRegion = (setLatitude, setLongitude) => {
   // Request permission for location access
-  Geolocation.requestAuthorization();
-  Geolocation.getCurrentPosition(({coords}) => {
-    console.log(coords);
-    setLatitude(coords?.latitude);
-    setLongitude(coords?.longitude);
+  Geolocation.requestAuthorization(() => {
+    Geolocation.getCurrentPosition(({coords}) => {
+      console.log(coords);
+      setLatitude(coords?.latitude);
+      setLongitude(coords?.longitude);
+    });
   });
 
   // Get current location
